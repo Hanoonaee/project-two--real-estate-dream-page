@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weektwo</title>
+    <link rel="stylesheet" href="tasktwo.css">
+    <link rel="stylesheet" href="responsive tab&mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+    <!--section one -->
+    <section class="firstpage">
+        <header>
+            <div class="first-container-1">
+                <div class="first-container-1a">
+                    <img src="assets/white email.svg" alt="Email">
+                    <p>Email us at<span>: example@mail.com</span></p>
+                </div>
+                <div class="first-container-1b">
+                    <img src="assets/white facebook.svg" alt="facebook">
+                    <img src="assets/white internet.svg" alt="internet">
+                    <img src="assets/whitelinkedin.svg" alt="linked in">
+                    <img src="assets/whiteinsta.svg" alt="instagram">
+                    <img src="assets/whitebahance.svg" alt="behance">
+                    <p>|</p>
+                    <img src="assets/whitePhone.svg" id="phone" alt="phone no">
+                    <p>123-4567 890</p>
+                </div>
+            </div>
+            <hr>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li><img src="assets/home white.svg" alt="home"></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="">OUR CLIENTS</a></li>
+                    <li><a href="#">PROPERTIES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">SEARCH</a></li>
+                    <li><a href="#"><button>Add Listing</button></a></li>
+                </ul>
+                <ul>
+                    <li class="hideonmobile"><img src="assets/home white.svg" alt="home"></li>
+                    <li class="hideonmobile"><a href="#">HOME</a></li>
+                    <li class="hideonmobile"><a href="">OUR CLIENTS</a></li>
+                    <li class="hideonmobile"><a href="#">PROPERTIES</a></li>
+                    <li class="hideonmobile"><a href="#">GALLERY</a></li>
+                    <li class="hideonmobile"><a href="#">BLOG</a></li>
+                    <li class="hideonmobile"><a href="#">CONTACT US</a></li>
+                    <li class="hideonmobile"><a href="#">SEARCH</a></li>
+                    <li class="hideonmobile"><a href="#"><button>Add Listing</button></a></li>
+                    <li class="menubutton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mainheading">
+            <h1>Find Your Dream Home</h1>
+            <h4>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere<br>cubilia curae; Proin sodales
+                ultrices nulla blandit volutpat.</h4>
+        </div>
+    </section>
+    <!-- section two -->
+    <section class="secondpage">
+        <div class="second-page">
+            <div class="boxcontainer">
+                <div class="boxcontainer-a">
+                    <h2>Locations</h2>
+                    <div class="boxcontainer-a1">
+                        <p>Select your city</p>
+                        <!-- <img src="assets/scrollicon.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="boxcontainer-a">
+                    <h2>Property Type</h2>
+                    <div class="boxcontainer-a1">
+                        <p>Select property type</p>
+                        <!-- <img src="assets/scrollicon.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="boxcontainer-a">
+                    <h2>Rent Range</h2>
+                    <div class="boxcontainer-a1">
+                        <p>Select rent range</p>
+                        <!-- <img src="assets/scrollicon.png" alt=""> -->
+                    </div>
+                </div>
+                <div class="search"><a href="#"><button>Search</button></a></div>
+            </div>
+            <div class="secondcontainer">
+                <h1>Properties by Area</h1>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere<br>cubilia curae; Proin
+                    sodales ultrices nulla blandit volutpat.</p>
+                <div class="gridbox">
+                    <div class="grid">
+                        <img src="assets/grid1.svg" alt="area one">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="fonts">
+                            <h1>Washington</h1>
+                            <p class="font">25 listings</p>
+                            <img src="assets/location icon.svg" alt="location">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="assets/grid2.svg" alt="area two">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="fonts">
+                            <h1>Franklin</h1>
+                            <p class="font">25 listings</p>
+                            <img src="assets/location icon.svg" alt="location">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="assets/grid3.svg" alt="area three">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="fonts">
+                            <h1>Clinton</h1>
+                            <p class="font">25 listings</p>
+                            <img src="assets/location icon.svg" alt="location">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="assets/grid4.jpg" alt="area four">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="fonts">
+                            <h1>Arlington</h1>
+                            <p class="font">25 listings</p>
+                            <img src="assets/location icon.svg" alt="location">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="assets/grid5.svg" alt="area five">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="fonts">
+                            <h1>Centerville</h1>
+                            <p class="font">25 listings</p>
+                            <img src="assets/location icon.svg" alt="location">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section three -->
+    <section class="thirdpage">
+        <div class="third-page">
+            <h1>Properties by Area</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere<br>cubilia curae; Proin sodales
+                ultrices nulla blandit volutpat.</p>
+            <div class="home">
+                <div class="homeone">
+                    <img src="assets/home 1.png" alt="home one">
+                    <h1>Sell your home</h1>
+                    <p>We do a free evaluation to be sure you want to start selling.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="hometwo">
+                    <img src="assets/home 2.png" alt="home two">
+                    <h1>Rent your home</h1>
+                    <p>We do a free evaluation to be sure you want to start selling.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="homethree">
+                    <img src="assets/home 3.png" alt="home three">
+                    <h1>Buy a home</h1>
+                    <p>We do a free evaluation to be sure you want to start selling.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="homefour">
+                    <img src="assets/home 4.png" alt="home four">
+                    <h1>Free Marketing</h1>
+                    <p>We do a free evaluation to be sure you want to start selling.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section four -->
+    <section class="fourthpage">
+        <div class="page-four">
+            <h1>Latest Properties of Rent</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere<br>cubilia curae; Proin sodales
+                ultrices nulla blandit volutpat.</p>
+            <div class="gridcontainer">
+                <div class="gridcontainer1">
+                    <img src="assets/hs1.svg" alt="one">
+                    <div>
+                        <div class="hotoffer">Hot Offer</div>
+                        <div class="sale">Sale</div>
+                    </div>
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827<h4>
+                                <h2>$ 590,693</h2>
+                                <img class="frames" src="assets/frame1.png" alt="frames">
+                                <div class="bottom">
+                                    <div class="bottom1">
+                                        <img src="assets/iconsa.svg" alt="icons">
+                                        <p>Jenny Wilson</p>
+                                    </div>
+                                    <img class="bottom2" src="assets/icons.svg" alt="">
+                                </div>
+                    </div>
+                </div>
+                <div class="gridcontainer1">
+                    <img src="assets/hs2.svg" alt="two">
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827</h4>
+                        <h2>$ 590,693</h2>
+                        <img class="frames" src="assets/frame1.png" alt="frames">
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <img src="assets/icons b.svg" alt="icons">
+                                <p>Jenny Wilson</p>
+                            </div>
+                            <img class="bottom2" src="assets/icons.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcontainer1">
+                    <img src="assets/hs3.svg" alt="three">
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827</h4>
+                        <h2>$ 590,693</h2>
+                        <img class="frames" src="assets/frame1.png" alt="frames">
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <img src="assets/iconsc.svg" alt="icons">
+                                <p>Jenny Wilson</p>
+                            </div>
+                            <img class="bottom2" src="assets/icons.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcontainer1">
+                    <img src="assets/hs4.svg" alt="">
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827</h4>
+                        <h2>$ 590,693</h2>
+                        <img class="frames" src="assets/frame1.png" alt="frames">
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <img src="assets/iconsa.svg" alt="icons">
+                                <p>Jenny Wilson</p>
+                            </div>
+                            <img class="bottom2" src="assets/icons.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcontainer1">
+                    <img src="assets/hs5.svg" alt="">
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827</h4>
+                        <h2>$ 590,693</h2>
+                        <img class="frames" src="assets/frame1.png" alt="frames">
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <img src="assets/icons b.svg" alt="icons">
+                                <p>Jenny Wilson</p>
+                            </div>
+                            <img class="bottom2" src="assets/icons.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcontainer1">
+                    <img src="assets/hs6.svg" alt="">
+                    <div class="gridcontainer1a">
+                        <h4>92 ALLIUM PLACE, ORLANDO FL 32827</h4>
+                        <h2>$ 590,693</h2>
+                        <img class="frames" src="assets/frame1.png" alt="frames">
+                        <div class="bottom">
+                            <div class="bottom1">
+                                <img src="assets/iconsc.svg" alt="icons">
+                                <p>Jenny Wilson</p>
+                            </div>
+                            <img class="bottom2" src="assets/icons.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Load More Listing</button>
+            <div class="partb">
+                <h1>Latest Properties of Rent</h1>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere<br>cubilia curae; Proin
+                    sodales ultrices nulla blandit volutpat.</p>
+            </div>
+            <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/partb im1.svg" alt="">
+                        <div class="hotoffer">Hot Offer</div>
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im2.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im3.svg" alt="">
+                        <div class="hotoffer">Hot Offer</div>
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im4.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im5.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im1.svg" alt="">
+                        <div class="hotoffer">Hot Offer</div>
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im2.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im3.svg" alt="">
+                        <div class="hotoffer">Hot Offer</div>
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im4.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/partb im5.svg" alt="">
+                        <div class="viewdetails">View Detail</div>
+                        <div class="lastimg">
+                            <div class="lastimga"><img src="assets/washington.svg" alt=""></div>
+                            <div class="lastimgb"><img src="assets/12000.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+            <div class="arrow">
+                <div class="leftarrow"><img src="assets/ArrowLeft.svg" alt=""></div>
+                <div class="rightarrow"><img src="assets/arrowright.svg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- secction five -->
+    <section class="fifth page">
+        <div class="page-five">
+            <h1>Find Best Place For Living</h1>
+            <p>Spend vacations in best hotels and resorts find the great place<br> of your choice using different
+                searching options.</p>
+            <button>Contact US</button>
+        </div>
+    </section>
+    <!-- section six -->
+    <section class="sixth page">
+        <div class="page-six">
+            <div class="six-a">
+                <img class="sixhome" src="assets/home.svg" alt="">
+                <h2>Contact Us</h2>
+                <p>Call : +123 400 123</p>
+                <p>Praesent nulla massa, hendrerit vestibulum<br> gravida in, feugiat auctor felis.</p>
+                <p>Email: example@mail.com</p>
+                <div class="logos">
+                    <img class="logo" src="assets/facebook blue.svg" alt="">
+                    <img class="logo" src="assets/internet blue.svg" alt="">
+                    <img class="logo" src="assets/insta blue.svg" alt="">
+                    <img class="logo" src="assets/linked in blue.svg" alt="">
+                    <img class="logo" src="assets/behance blue.svg" alt="">
+                </div>
+            </div>
+            <div class="six-a">
+                <h2>Features</h2>
+                <p>Home</p>
+                <p>Become a Host</p>
+                <p>Pricing</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+            <div class="six-a">
+                <h2>Company</h2>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Contact</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+            <div class="six-a">
+                <h2>Team and policies</h2>
+                <p>Terms of servies</p>
+                <p>Privacy Policy</p>
+                <p>Security</p>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 15,
+                },
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 4.5,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
